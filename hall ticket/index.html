@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hallticket</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="nav-bar">
+      <div class="nav-item">
+        <p class="nav-text">Home</p>
+      </div>
+    </nav>
+    <main class="form-container">
+      <div class="formInput">
+        <p class="form-heading">Generate Hallticket</p>
+      </div>
+      <form class="form" onsubmit="formSubmit(event)">
+        <div
+          data-component="input"
+          data-config-placeholder="Enter name"
+          data-config-name="personName"
+          data-config-auto-complete="off"
+          data-config-id="Name"
+        ></div>
+        <div
+          data-component="input"
+          data-config-placeholder="Enter seat number"
+          data-config-name="seatNo"
+          data-config-auto-complete="off"
+          data-config-id="seat-no"
+        ></div>
+        <div
+          data-component="input"
+          data-config-placeholder="Enter Enrollement number"
+          data-config-name="enrollement"
+          data-config-auto-complete="off"
+          data-config-id="enrollement-no"
+        ></div>
+        <div
+          data-component="input"
+          data-config-placeholder="Enter old Enrollement number"
+          data-config-name="oldEnrollement"
+          data-config-auto-complete="off"
+          data-config-id="enrollement-no"
+        ></div>
+        <div class="submitBtnContainer">
+          <button
+            class="submitButton"
+            type="submit"
+            onclick="submitInput(event)"
+          >
+            Submit
+          </button>
+        </div>
+      </form>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+  <script src="utils/importer.js"></script>
+  <script src="./base/index.js"></script>
+</html>
