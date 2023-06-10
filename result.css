@@ -103,7 +103,6 @@ td {
 .print-section{
   display: flex;
   justify-content: center;
-  position: absolute;
 }
 
 @media print{
