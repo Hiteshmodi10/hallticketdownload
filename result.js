@@ -14,4 +14,6 @@ window.onload = function() {
     document.querySelector(".student-name").innerHTML=  personFullName.toUpperCase();
     document.querySelector(".student-old-enrollment-no").innerHTML = data.oldEnrollementNo;
 }
-
+function PrintHallticket(){
+    window.print();
+} 
