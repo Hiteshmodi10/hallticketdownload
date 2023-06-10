@@ -105,6 +105,11 @@ td {
   justify-content: center;
   position: absolute;
 }
+
+@media print{
+  .print-btn{
+    display: none;
+  }
 .print-btn{
   height: 40px;
   width: 100px;
