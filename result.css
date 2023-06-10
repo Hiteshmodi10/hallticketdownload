@@ -104,14 +104,15 @@ td {
   display: flex;
   justify-content: center;
 }
-
-@media print{
-  .print-btn{
-    display: none;
-  }
 .print-btn{
   height: 40px;
   width: 100px;
   border-radius: 8px;
   background-color: #00bbff;
 }
+
+@media print{
+  .print-btn{
+    display: none;
+  }
+
