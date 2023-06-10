@@ -7,7 +7,7 @@ function submitInput(event){
      personName = formData.get("personName"),
      oldEnrollementNo = formData.get("oldEnrollement")
 
-    url = `https://sensational-caramel-7f7e8a.netlify.app?seatNo=${encodeURIComponent(seatNo)}&enrollementNo=${encodeURIComponent(enrollementNo)}&personName=${encodeURIComponent(personName)}&oldEnrollementNo=${oldEnrollementNo}`;
+    url = `https://hiteshmodi10.github.io/hallticketdownload/result.html?seatNo=${encodeURIComponent(seatNo)}&enrollementNo=${encodeURIComponent(enrollementNo)}&personName=${encodeURIComponent(personName)}&oldEnrollementNo=${oldEnrollementNo}`;
     
         document.location.href = url;
 
