@@ -9,6 +9,7 @@ class Input{
         this.el.setAttribute("name",config.name);
         this.el.setAttribute("required",config.notRequired?? "required");
         this.el.setAttribute("auto-complete", config.autoComplete?? "off");
+        this.el.setAttribute("maxlength",config.maxlength)
     }
 
     getElement(){
